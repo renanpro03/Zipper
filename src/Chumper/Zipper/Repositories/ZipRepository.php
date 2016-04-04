@@ -7,6 +7,18 @@ class ZipRepository implements RepositoryInterface
 {
     private $archive;
 
+    /*
+     * Edited By renanpro03
+     */
+
+    /**
+     * @return null|ZipArchive
+     */
+    public function getArchive()
+    {
+        return $this->archive;
+    }
+
     /**
      * Construct with a given path
      *
